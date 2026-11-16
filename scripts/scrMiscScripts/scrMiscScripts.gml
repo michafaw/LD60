@@ -31,3 +31,8 @@ function scrMonkeyNextDestXY(currXY){
 	var directionSign = goRight ? 1 : -1;
 	return [currXY[0] + directionSign*64, currXY[1] + 64];
 }
+
+function Vec2Add(vecA, vecB) {
+	live_auto_call;
+	return [vecA[0] + vecB[0], vecA[1] + vecB[1]];
+}
